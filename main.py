@@ -26,7 +26,7 @@ with open('list2.csv', 'r') as read_obj:
             # with open('page.html', 'w', encoding='utf-8') as f:
             #     f.write(r.text)
             #     f.close()
-
+#comment
             soup = BeautifulSoup(r.text, 'html.parser')
             links = soup.find_all('div',{"id":"root"})
 
